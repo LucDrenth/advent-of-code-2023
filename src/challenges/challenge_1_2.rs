@@ -15,10 +15,6 @@ pub fn execute() {
         ("nine".to_string(), 9),
     ]);
 
-
-
-
-
     let mut total = 0;
 
     utils::file_utils::for_every_line("assets/input_1.txt", |line: &str| {
@@ -30,9 +26,6 @@ pub fn execute() {
     });
 
     println!("{}", total);
-
-
-    // println!("{}", get_last_number("2733vmmpknvgr", &string_numbers));
 }
 
 fn get_first_number(line: &str, string_numbers: &HashMap<String, u32>) -> u32 {
