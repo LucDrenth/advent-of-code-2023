@@ -1,6 +1,6 @@
 use crate::utils;
-pub fn execute() {
 
+pub fn execute() {
     let mut total: u32 = 0;
 
     utils::file_utils::for_every_line("assets/input_2.txt", |line: &str| {
