@@ -54,8 +54,6 @@ fn get_min_cubes(game_data: &str) -> MinCubes {
 
     let mut result = MinCubes::new();
 
-    let game_id: u32 = game_id_and_game_result[0][5..].parse().unwrap();
-
     for grab in game_id_and_game_result[1].split(";").collect::<Vec<_>>() {
         for stone in grab.split(",").collect::<Vec<_>>() {
             let amount_and_color = stone.trim().split(" ").collect::<Vec<_>>();
