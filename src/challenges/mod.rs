@@ -10,3 +10,4 @@ pub mod challenge_5_1;
 pub mod challenge_5_2;
 pub mod challenge_6_1;
 pub mod challenge_6_2;
+pub mod challenge_7_1;

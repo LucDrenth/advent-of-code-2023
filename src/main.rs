@@ -3,5 +3,5 @@ mod challenges;
 mod utils;
 
 fn main() {
-    challenges::challenge_6_2::execute();
+    challenges::challenge_7_1::execute();
 }
