@@ -181,5 +181,4 @@ fn clasify(hand: &Hand) -> WinType {
     } else {
         WinType::HighCard
     }
-
 }
